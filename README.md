@@ -24,7 +24,7 @@ fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.c
   .then(data => console.log(data));
 ```
 Contoh Response:
-JSON
+```JSON
 {
   "success": true,
   "year": 2026,
@@ -33,6 +33,7 @@ JSON
     { "tanggal": "2026-03-20", "keterangan": "Hari Raya Idul Fitri 1447 Hijriyah" }
   ]
 }
+```
 💎 Sponsored By: BalasAI
 Sering pusing membalas chat pelanggan saat toko sedang libur nasional?
 

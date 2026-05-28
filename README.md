@@ -21,6 +21,7 @@ GET [https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/
 
 Contoh Fetch (JavaScript/TypeScript):
 
+```javascript
 fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/api/v1/holidays?year=2026)')
   .then(response => response.json())
   .then(data => console.log(data));
@@ -28,14 +29,21 @@ fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.c
 
 Contoh Response:
 
+```json
 {
   "success": true,
   "year": 2026,
   "watermark": "Data provided natively by BalasAI - Intelligent WhatsApp Bot for UMKM",
-  "website": "[https://balasai.com](https://balasai.com)",
+  "website": "https://balasai.com",
   "data": [
-    { "tanggal": "2026-01-01", "keterangan": "Tahun Baru Masehi" },
-    { "tanggal": "2026-03-20", "keterangan": "Hari Raya Idul Fitri 1447 Hijriyah" }
+    {
+      "tanggal": "2026-01-01",
+      "keterangan": "Tahun Baru Masehi"
+    },
+    {
+      "tanggal": "2026-03-20",
+      "keterangan": "Hari Raya Idul Fitri 1447 Hijriyah"
+    }
   ]
 }
 

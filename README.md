@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)]()
-[![Provided By](https://img.shields.io/badge/Provided%20By-BalasAI-06b6d4.svg)](https://balasai.com)
+[![Provided By](https://img.shields.io/badge/Provided%20By-BalasAI-06b6d4.svg)](https://balasai.id)
 
 API gratis, super cepat (0ms latency), dan tanpa limit *request* untuk mendapatkan data tanggal merah, hari libur nasional, dan cuti bersama di Indonesia. Selalu *up-to-date* sesuai Surat Keputusan Bersama (SKB) Menteri.
 
-> 🚀 **API ini disediakan & dirawat secara gratis oleh [BalasAI](https://balasai.com).**
+> 🚀 **API ini disediakan & dirawat secara gratis oleh [BalasAI](https://balasai.id).**
 
 ---
 
@@ -36,17 +36,17 @@ fetch('https://app.balasai.com/api/v1/holidays?year=2026')
 ```
 ---
 
-## 💎 Sponsored By: [BalasAI](https://balasai.com)
+## 💎 Sponsored By: [BalasAI](https://balasai.id)
 
 Sering pusing membalas chat pelanggan saat toko sedang libur nasional? 
 
-[BalasAI](https://balasai.com) adalah Bot WhatsApp AI (RAG) cerdas yang dirancang khusus untuk UMKM Indonesia. Bot ini menggunakan API kalender di atas sebagai *otak*-nya.
+[BalasAI](https://balasai.id) adalah Bot WhatsApp AI (RAG) cerdas yang dirancang khusus untuk UMKM Indonesia. Bot ini menggunakan API kalender di atas sebagai *otak*-nya.
 
 *   ✅ **Sadar Kalender:** Bot otomatis tahu jika hari ini tanggal merah, dan otomatis membalas: *"Toko sedang libur, pesanan akan diproses besok lusa."*
 *   ✅ **Paham Konteks Bisnis:** Upload PDF/FAQ katalog toko Anda, AI akan menjawab layaknya CS profesional.
 *   ✅ **Terkoneksi ke CRM/Google Sheets:** Pendaftaran pesanan pelanggan langsung direkap ke Google Sheets secara *real-time*.
 
-👉 **[Buat Bot WhatsApp Pintar Anda Sekarang (Gratis 50 Chat)](https://balasai.com/register)**
+👉 **[Buat Bot WhatsApp Pintar Anda Sekarang (Gratis 50 Chat)](https://balasai.id/register)**
 
 ---
 *Dibuat dengan ❤️ untuk komunitas Developer Indonesia.*

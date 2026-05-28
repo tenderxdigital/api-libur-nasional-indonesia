@@ -14,27 +14,21 @@ API gratis, super cepat (0ms latency), dan tanpa limit *request* (No Rate Limit)
 
 Anda tidak perlu mengunduh data secara manual. Kami menyediakan Endpoint API publik yang sudah mengizinkan **CORS** `*`, sehingga bisa langsung Anda panggil (*fetch*) dari aplikasi Frontend (React, Vue, Next.js) atau Backend apa pun.
 
-**Endpoint:**
-```http
-GET [https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/api/v1/holidays?year=2026)
+### Endpoint:
+`GET https://app.balasai.com/api/v1/holidays?year=2026`
 
-
-Contoh Fetch (JavaScript/TypeScript):
-
+### Contoh Fetch (JavaScript/TypeScript):
 ```javascript
 fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/api/v1/holidays?year=2026)')
   .then(response => response.json())
   .then(data => console.log(data));
-
-
 Contoh Response:
-
-```json
+JSON
 {
   "success": true,
   "year": 2026,
   "watermark": "Data provided natively by BalasAI - Intelligent WhatsApp Bot for UMKM",
-  "website": "https://balasai.com",
+  "website": "[https://balasai.com](https://balasai.com)",
   "data": [
     {
       "tanggal": "2026-01-01",
@@ -46,17 +40,17 @@ Contoh Response:
     }
   ]
 }
-
-
-
 💎 Sponsored By: BalasAI
-
 Sering pusing membalas chat pelanggan saat toko sedang libur nasional?
+
 BalasAI adalah Bot WhatsApp AI (RAG) cerdas yang dirancang khusus untuk UMKM Indonesia. Bot ini menggunakan API kalender di atas sebagai otak-nya.
 
 ✅ Sadar Kalender: Bot otomatis tahu jika hari ini tanggal merah, dan otomatis membalas: "Toko sedang libur, pesanan akan diproses besok lusa."
+
 ✅ Paham Konteks Bisnis: Upload PDF/FAQ katalog toko Anda, AI akan menjawab layaknya CS profesional.
+
 ✅ Terkoneksi ke CRM/Google Sheets: Pendaftaran pesanan pelanggan langsung direkap ke Google Sheets secara real-time.
 
+👉 Buat Bot WhatsApp Pintar Anda Sekarang (Gratis 50 Chat)
 
 Dibuat dengan ❤️ untuk komunitas Developer Indonesia.

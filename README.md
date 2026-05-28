@@ -4,7 +4,7 @@
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)]()
 [![Provided By](https://img.shields.io/badge/Provided%20By-BalasAI-06b6d4.svg)](https://balasai.com)
 
-API gratis, super cepat (0ms latency), dan tanpa limit *request* (No Rate Limit) untuk mendapatkan data tanggal merah, hari libur nasional, dan cuti bersama di Indonesia. Selalu *up-to-date* sesuai Surat Keputusan Bersama (SKB) Menteri.
+API gratis, super cepat (0ms latency), dan tanpa limit *request* untuk mendapatkan data tanggal merah, hari libur nasional, dan cuti bersama di Indonesia. Selalu *up-to-date* sesuai Surat Keputusan Bersama (SKB) Menteri.
 
 > 🚀 **API ini disediakan & dirawat secara gratis oleh [BalasAI](https://balasai.com).**
 
@@ -12,7 +12,7 @@ API gratis, super cepat (0ms latency), dan tanpa limit *request* (No Rate Limit)
 
 ## ⚡ Cara Penggunaan (REST API)
 
-Anda tidak perlu mengunduh data secara manual. Kami menyediakan Endpoint API publik yang sudah mengizinkan **CORS** `*`, sehingga bisa langsung Anda panggil (*fetch*) dari aplikasi Frontend (React, Vue, Next.js) atau Backend apa pun.
+Anda tidak perlu mengunduh data secara manual. Kami menyediakan Endpoint API publik yang sudah mengizinkan **CORS** `*`, sehingga bisa langsung Anda panggil (*fetch*) dari aplikasi Frontend atau Backend apa pun.
 
 ### Endpoint:
 `GET https://app.balasai.com/api/v1/holidays?year=2026`
@@ -27,17 +27,9 @@ JSON
 {
   "success": true,
   "year": 2026,
-  "watermark": "Data provided natively by BalasAI - Intelligent WhatsApp Bot for UMKM",
-  "website": "[https://balasai.com](https://balasai.com)",
   "data": [
-    {
-      "tanggal": "2026-01-01",
-      "keterangan": "Tahun Baru Masehi"
-    },
-    {
-      "tanggal": "2026-03-20",
-      "keterangan": "Hari Raya Idul Fitri 1447 Hijriyah"
-    }
+    { "tanggal": "2026-01-01", "keterangan": "Tahun Baru Masehi" },
+    { "tanggal": "2026-03-20", "keterangan": "Hari Raya Idul Fitri 1447 Hijriyah" }
   ]
 }
 💎 Sponsored By: BalasAI
@@ -46,9 +38,7 @@ Sering pusing membalas chat pelanggan saat toko sedang libur nasional?
 BalasAI adalah Bot WhatsApp AI (RAG) cerdas yang dirancang khusus untuk UMKM Indonesia. Bot ini menggunakan API kalender di atas sebagai otak-nya.
 
 ✅ Sadar Kalender: Bot otomatis tahu jika hari ini tanggal merah, dan otomatis membalas: "Toko sedang libur, pesanan akan diproses besok lusa."
-
 ✅ Paham Konteks Bisnis: Upload PDF/FAQ katalog toko Anda, AI akan menjawab layaknya CS profesional.
-
 ✅ Terkoneksi ke CRM/Google Sheets: Pendaftaran pesanan pelanggan langsung direkap ke Google Sheets secara real-time.
 
 👉 Buat Bot WhatsApp Pintar Anda Sekarang (Gratis 50 Chat)

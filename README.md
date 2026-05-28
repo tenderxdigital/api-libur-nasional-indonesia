@@ -22,6 +22,7 @@ Anda tidak perlu mengunduh data secara manual. Kami menyediakan Endpoint API pub
 fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/api/v1/holidays?year=2026)')
   .then(response => response.json())
   .then(data => console.log(data));
+```
 Contoh Response:
 JSON
 {

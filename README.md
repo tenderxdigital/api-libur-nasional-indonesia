@@ -19,7 +19,7 @@ Anda tidak perlu mengunduh data secara manual. Kami menyediakan Endpoint API pub
 
 ### Contoh Fetch (JavaScript/TypeScript):
 ```javascript
-fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/api/v1/holidays?year=2026)')
+> fetch('[https://app.balasai.com/api/v1/holidays?year=2026](https://app.balasai.com/api/v1/holidays?year=2026)')
   .then(response => response.json())
   .then(data => console.log(data));
 ```

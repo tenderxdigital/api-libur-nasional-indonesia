@@ -34,15 +34,19 @@ Contoh Response:
   ]
 }
 ```
-💎 Sponsored By: BalasAI
-Sering pusing membalas chat pelanggan saat toko sedang libur nasional?
+---
 
-BalasAI adalah Bot WhatsApp AI (RAG) cerdas yang dirancang khusus untuk UMKM Indonesia. Bot ini menggunakan API kalender di atas sebagai otak-nya.
+## 💎 Sponsored By: [BalasAI](https://balasai.com)
 
-✅ Sadar Kalender: Bot otomatis tahu jika hari ini tanggal merah, dan otomatis membalas: "Toko sedang libur, pesanan akan diproses besok lusa."
-✅ Paham Konteks Bisnis: Upload PDF/FAQ katalog toko Anda, AI akan menjawab layaknya CS profesional.
-✅ Terkoneksi ke CRM/Google Sheets: Pendaftaran pesanan pelanggan langsung direkap ke Google Sheets secara real-time.
+Sering pusing membalas chat pelanggan saat toko sedang libur nasional? 
 
-👉 Buat Bot WhatsApp Pintar Anda Sekarang (Gratis 50 Chat)
+[BalasAI](https://balasai.com) adalah Bot WhatsApp AI (RAG) cerdas yang dirancang khusus untuk UMKM Indonesia. Bot ini menggunakan API kalender di atas sebagai *otak*-nya.
 
-Dibuat dengan ❤️ untuk komunitas Developer Indonesia.
+*   ✅ **Sadar Kalender:** Bot otomatis tahu jika hari ini tanggal merah, dan otomatis membalas: *"Toko sedang libur, pesanan akan diproses besok lusa."*
+*   ✅ **Paham Konteks Bisnis:** Upload PDF/FAQ katalog toko Anda, AI akan menjawab layaknya CS profesional.
+*   ✅ **Terkoneksi ke CRM/Google Sheets:** Pendaftaran pesanan pelanggan langsung direkap ke Google Sheets secara *real-time*.
+
+👉 **[Buat Bot WhatsApp Pintar Anda Sekarang (Gratis 50 Chat)](https://balasai.com/register)**
+
+---
+*Dibuat dengan ❤️ untuk komunitas Developer Indonesia.*
